@@ -1,0 +1,47 @@
+
+#以everything编译安装软件
+pm.dexopt.install=everything
+
+#不知名优化
+debug.sf.latch_unsignaled=1
+
+# WiFi优化功能，调整频率
+wifi.supplicant_scan_interval=180
+
+# 禁用统计记录和监视
+debug.atrace.tags.enableflags=0
+profiler.force_disable_ulog=true
+profiler.force_disable_err_rpt=true
+profiler.force_disable_ulog=1
+profiler.force_disable_err_rpt=1
+ro.config.nocheckin=1
+debugtool.anrhistory=0
+ro.com.google.locationfeatures=0
+ro.com.google.networklocation=0
+profiler.debugmonitor=false
+profiler.launch=false
+profiler.hung.dumpdobugreport=false
+persist.service.pcsync.enable=0
+persist.service.lgospd.enable=0
+persist.sys.purgeable_assets=1
+
+#开启小米10拥有的游戏变声器等功能
+ro.vendor.audio.voice.change.support=true
+ro.vendor.audio.game.effect=true
+
+#玄学WIFI优化
+ro.net.enable_sla=1
+
+#小爱同学灵敏度
+ro.vendor.audio.soundtrigger.sensitivity=true
+vendor.audio.soundtrigger.sensitivity=true
+
+#SQLite Turbo
+debug.sqlite.journalmode=OFF
+debug.sqlite.syncmode=0
+ro.debuggable=0
+persist.android.strictmode=0
+profiler.force_disable_err_rpt=1
+ro.config.nocheckin=1
+ro.kernel.android.checkjni=0
+ro.kernel.checkjni=0
